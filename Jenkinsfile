@@ -15,5 +15,13 @@ stages{
                 }
             }
         }
+
+    stage('Deployment'){
+        steps {
+            bat 'xcopy C:\\Users\\Dell\\.jenkins\\workspace\\CrestApplication\\target\\fatca-app-0.0.1-SNAPSHOT.jar C:\\jtest'
+        }
+
     }
+
+}
 }
