@@ -6,7 +6,7 @@ pipeline {
 stages{
         stage('Build'){
             steps {
-                bat 'docker build . -t fatcaapp2'
+                bat 'docker build . -t fatcaapp3'
             }
             
         }
