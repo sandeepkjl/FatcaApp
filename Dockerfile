@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM java
 
 ADD ./target/*.jar /home/
 
