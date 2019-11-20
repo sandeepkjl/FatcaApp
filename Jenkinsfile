@@ -7,7 +7,7 @@ stages{
         stage('Build'){
             steps {
                 bat 'mvn clean package'
-                bat 'docker build . -t fatcaapp-java'
+                bat 'docker build . -t fatcaapp1'
             }
             
         }
