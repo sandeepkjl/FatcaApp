@@ -49,7 +49,7 @@ stages{
                     spec: '''{
                         "files": [
                             {
-                                "pattern": "libs-snapshot-local/target/*fatca*.jar",
+                                "pattern": "libs-snapshot-local/*fatca*.jar",
                                 "target": "/opt/"
                             }
                                 ]
