@@ -43,6 +43,9 @@ stages{
         }
 		
 		stage('downlaod from artifactory'){
+			steps{
+				sh 'sudo su'
+			}
             steps{
                 rtDownload (
                     serverId: 'JfrogRepository',
