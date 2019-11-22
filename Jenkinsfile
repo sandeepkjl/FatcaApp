@@ -44,7 +44,7 @@ stages{
 		
 		stage('downlaod from artifactory'){
             steps{
-                rtUpload (
+                rtDownload (
                     serverId: 'JfrogRepository',
                     spec: '''{
                         "files": [
