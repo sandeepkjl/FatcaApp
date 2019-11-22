@@ -27,7 +27,7 @@ stages{
                     spec: '''{
                         "files": [
                             {
-                                "pattern": "./target/*fatca*.war",
+                                "pattern": "./target/*fatca*.jar",
                                 "target": "libs-snapshot-local/"
                             }
                                 ]
