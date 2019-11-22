@@ -42,11 +42,9 @@ stages{
             }
         }
 		
-		stage('downlaod from artifactory'){
-			steps{
-				sh 'sudo su'
-			}
+		stage('downlaod from artifactory'){				
             steps{
+				sh 'sudo su'
                 rtDownload (
                     serverId: 'JfrogRepository',
                     spec: '''{
