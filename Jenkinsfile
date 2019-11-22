@@ -45,7 +45,7 @@ stages{
 		  stage('Docker Conatinerixation'){
             
             steps {
-                bat 'docker build . -t fatcaapp1'             
+                sh 'docker build . -t fatcaapp1'             
             }
         }
 		
