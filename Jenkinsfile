@@ -52,8 +52,8 @@ stages{
 		stage('push image to docker hub'){
             
             steps {
-                sh 'docker login   -u sk6785 -p Sandeep@123'
-				sh 'docker tag fatcaapp1 sk6785/fatcaapp:2.0'
+                sh 'docker login   -u ${SA_DOCKER_USERID} -p ${SA_DOCKER_PASSWORD}'
+				sh 'docker tag fatcaapp1 sk6785/fatcaapp:3.0'
 				sh 'docker push  sk6785/fatcaapp:2.0'
 				
             }
